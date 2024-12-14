@@ -1,0 +1,130 @@
+
+body {
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    box-shadow: 0px 0px 10px 10px rgba(179, 24, 24, 0.6);
+}
+
+
+.resume-pdf {
+    text-align: center;
+}
+
+#main-navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: red;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 20px;     
+}
+
+nav ul li {
+    text-align: center;
+}
+    
+
+nav ul li a {
+    display: block;
+    color: rgb(207, 176, 118);
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: red;
+    background-color: whitesmoke;
+}
+
+.fixed-layout {
+    width: 960px; 
+    margin: 0 auto; 
+    padding: 60px;
+    background-color: #000000;
+    color: rgb(206, 194, 194);
+    box-shadow: 0px 0px 10px 10px rgba(179, 24, 24, 0.6);
+    border-radius: 90px;
+    margin-top: 50px; 
+    margin-bottom: 40px;
+}
+
+.text {
+    background-color: red;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+#resume-heading {
+    margin-top: -40px;
+}
+
+#youtube {
+    display: block;
+}
+
+iframe {
+    display: block;
+    margin: 10px auto;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 10px rgba(179, 24, 24, 0.6);
+}
+
+footer {
+    text-align: center;
+}
+
+#socials {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+#socials ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 20px;     
+}
+
+#socials ul li {
+    text-align: center;
+}
+
+#socials ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(155, 35, 35);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#socials a:hover {
+    color: red;
+    background-color: white;
+}
