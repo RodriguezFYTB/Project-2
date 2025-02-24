@@ -111,6 +111,17 @@ footer {
     height: 600px; 
     width: 800px;
 }
+
+#computer-pic1 {
+    height: 800px; 
+    width: 800px;
+}
+
+#computer-pic2 {
+    height: 800px; 
+    width: 600px;
+}
+
 #socials {
     overflow: hidden;
     display: flex;
