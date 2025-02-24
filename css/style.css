@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 .fixed-layout {
-    width: 960px; 
+    width: 88%; 
     margin: 0 auto; 
     padding: 60px;
     background-color: #000000;
@@ -98,6 +98,19 @@ footer {
     text-align: center;
 }
 
+#mxc {
+    height: 600px; 
+    width: 400px;
+}
+
+#dominican {
+    height: 600px; 
+    width: 400px;
+}
+#dunk {
+    height: 600px; 
+    width: 800px;
+}
 #socials {
     overflow: hidden;
     display: flex;
