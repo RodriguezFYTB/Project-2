@@ -3,6 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    .text p {
+        font-size: 1.2rem;
+    }
+    #main-navbar ul {
+        display: flex;
+    }
+    .image-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .text p {
+        font-size: 1.5rem;
+    }
+    #main-navbar ul {
+        justify-content: space-evenly;
+    }
+    .image-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 body {
     font-family: "Roboto Mono", monospace;
     font-size: 1rem;
@@ -111,6 +149,13 @@ iframe {
 footer {
     text-align: center;
 }
+
+/* Style for map container */
+#map {
+    height: 900px;  /* Map height */
+    width: 100%;    /* Full-width map */
+}
+
 
 #mxc {
     height: 600px; 
