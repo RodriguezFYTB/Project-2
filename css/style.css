@@ -68,6 +68,11 @@ body {
     background-color: red;
 }
 
+#main-navbar a.active {
+    font-weight: bold;
+    color: #ffffff;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
